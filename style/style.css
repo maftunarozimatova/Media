@@ -1,0 +1,1438 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+    text-decoration: none;
+}
+.conteiner{
+    width: 100%;
+    height: 100%;
+}
+.conteiner .navbar{
+   width: 100%;
+   height: 70px;
+   background-color: rgba(27, 27, 27, 1);
+}
+.conteiner .navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position:relative ;
+    top: 20px;
+}
+.conteiner .navbar ul li a{
+    width: 395px;
+    height: 26px;
+    color: #fff;
+    font-family: sans-serif;
+}
+.conteiner .navbar .red{
+color: rgba(218, 69, 51, 1) ;
+font-family: sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.conteiner .Navbar ul{
+    width: 207px;
+    height: 26px;
+    display: flex;
+    /* border: 1px slid #000; */
+    justify-content: space-between;
+    gap: 50px;
+    position: absolute;
+    left: 1000px;
+    top: 20px;
+}
+.conteiner .Navbar ul li a{
+    color: #fff;
+    font-family: sans-serif;
+}
+.conteiner .backgraund{
+    width: 100%;
+    height: 2000px;
+    background-color: #000;
+}
+
+.conteiner .backgraund .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteiner .backgraund .text .image1{
+    width: 650px;
+    height: 350px;
+    background: url(./images/H0.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 50px;
+}
+.conteiner .backgraund .text .image2{
+    width: 500px;
+    height: 480px;
+    background: url(./images/image_0.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 90px;
+}
+.conteiner .backgraund .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+.conteiner .backgraund .image .image3{
+    width: 396px;
+    height: 396px;
+    background: url(./images/image_2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.conteiner .backgraund .image .image4{
+    width: 750px;
+    height: 600px;
+    background: url(./images/exp.png );
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 120px;
+}
+.conteiner .backgraund .images{
+    width: 804px;
+    height: 566px;
+    position: relative;
+    top: 300px;
+    left: 480px;
+}
+.conteiner .backgraund .images .image5{
+    width: 8750px;
+    height: 550x;
+    background: url(./images/logos.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* Section || Two */
+
+.conteiner .backgraund-c{
+    width: 100%;
+    height: 850px;
+    background-color: #fff;
+}
+.conteiner .backgraund-c .fone{
+    width: 100%;
+    height: 850px;
+    background: url(./images/backgroud_grey.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.conteiner .backgraund-c .fone .t1 h1{
+    width: 498px;
+    height: 51px;
+    color: rgba(27, 27, 27, 1);
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 51.3px;
+    position: relative;
+    top: 130px;
+    left: 200px;
+}
+
+.conteiner .backgraund-c .fone .t1 p{
+    width: 707px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.6px;
+    font-family: monospace;
+    position: relative;
+    top: 150px;
+    left: 200px;
+    color: rgba(138, 138, 138, 1)
+}
+.conteiner .backgraund-c .fone .img {
+    width: 154px;
+    height: 32px;
+    background: url(./images/BottonAdv.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    position: relative;
+    top: 120px;
+    left: 1070px;
+}
+
+.conteiner .backgraund-c .i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 250px;
+    gap: 5px;
+}
+.conteiner .backgraund-c .i .i1{
+    width: 235px;
+    height: 400px;
+    border: 90px;
+    background: url(./images/services.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    bottom: 80px;
+}
+.conteiner .backgraund-c .i .i2{
+    width: 235px;
+    height: 400px;
+    background: url(./images/Service01.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    position: relative;
+    bottom: 80px;
+}
+.conteiner .backgraund-c .i .i3{
+    width: 235px;
+    height: 400px;
+    background: url(./images/Service02.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    bottom: 80px;
+}
+.conteiner .backgraund-c .i .i4{
+    width: 235px;
+    height: 400px;
+    background: url(./images/Service03\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    bottom: 80px;
+}
+.conteiner .backgraund-c .i .i5{
+    width: 235px;
+    height: 400px;
+    background: url(./images/Service03.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    bottom: 80px;
+}
+.conteiner .backgraund-c .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 150px;
+    position: relative;
+    bottom: 80px;
+}
+.conteiner .backgraund-c .button .buttons{
+    width: 134px;
+    height: 50px;
+    background: url(./images/buttons.png);
+    cursor: pointer;
+    position: relative;
+    bottom: 100px;
+}
+
+/* section || Three */
+
+.conteiner .section3{
+    width: 100%;
+    height: 1169px;
+    background: url(./images/backgroud_red.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.conteiner .section3 .section-t{
+    font-weight: 400;
+    font-size: 38px;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    left: 200px;
+    top: 150px;
+}
+.conteiner .section3 .section-t2 {
+    width: 707px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25.6px;
+    opacity: 0.6;
+    position: relative;
+    left: 200px;
+    top: 170px;
+}
+
+.conteiner  .section-div{
+    width: 900px;
+    height: 460px;
+    border-radius: 10px;
+    background-color: rgba(27, 27, 27, 1);
+    position: relative;
+    bottom: 870px;
+    left: 200px;
+}
+.conteiner .section-div .text-1 p{
+color: #fff;
+font-weight: 500;
+font-size: 24px;
+line-height: 34px;
+font-family: sans-serif;
+position: relative;
+top: 30px;
+left: 35px;
+}
+.conteiner .section-div .s-text{
+    width: 50px;
+    height: 45px;
+    display: flex;
+    position: relative;
+    left: 800px;
+}
+.conteiner .section-div .text-2{
+    color: rgba(218, 69, 51, 1);
+    font-weight: 500;
+    font-size: 36px;
+}
+.conteiner .section-div .text-3{
+    color: #fff;
+    font-weight: 500;
+    font-size: 36px;
+}
+.conteiner .section-div .buttons{
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.conteiner .buttons .button1{
+    width: 400px;
+    height: 62px;
+    background-color: rgba(218, 69, 51, 1);
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+.conteiner .buttons .button1 p{
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+.conteiner .buttons .button2{
+    width: 400px;
+    height: 82px;
+    background-color: rgb(36, 35, 35);
+    position: relative;
+    top: 50px;
+    left: 40px;
+}
+.conteiner .buttons .button2 p{
+    color: #fff;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 15px;
+    top: 10px;
+}
+.conteiner .buttons .button3{
+    width: 400px;
+    height: 62px;
+    background-color: rgb(36, 35, 35);
+    position: relative;
+    top: 90px;
+    left: 40px;
+}
+.conteiner .buttons .button3 p{
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+.conteiner .butons .button4{
+    width: 400px;
+    height: 62px;
+    background-color: rgb(34, 33, 33);
+    position: relative;
+    bottom: 190px;
+    left: 480px;
+}
+.conteiner .butons .button4 p{
+   color: #fff;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 25px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   position: relative;
+   top: 15px;
+   left: 15px;
+}
+.conteiner .butons .button5{
+    width: 400px;
+    height: 62px;
+    background-color: rgb(34, 33, 33);
+    position: relative;
+    left: 480px;
+    bottom: 140px;
+}
+.conteiner .butons .button5 p{
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+.conteiner .butons .button6{
+    width: 400px;
+    height: 62px;
+    background-color: rgb(34, 33, 33);
+    position: relative;
+    bottom: 100px;
+    left: 480px;
+}
+.conteiner .butons .button6 p{
+    color: #fff;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+.conteiner .section-div .section-b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 500px;
+    position: relative;
+    bottom: 90px;
+}
+.conteiner .section-div .section-b1{
+    width: 154px;
+    height: 32px;
+    background: url(./images/BottonAdv\ —\ копия.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+.conteiner .section-div .section-b2{
+    width: 154px;
+    height: 32px;
+    background: url(./images/BottonAdv\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+.conteiner .section-div .section-t{
+    width: 360px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    font-family: sans-serif;
+    position: relative;
+    right: 5px;
+}
+.conteiner .section-div .s-button{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+position: relative;
+top: 20px;
+right: 50px;
+}
+.conteiner .section-div .s-button .s-button1{
+    width: 392px;
+    height: 131px;
+    border-radius: 10px;
+    background-color: rgba(27, 27, 27, 1);
+}
+.conteiner .section-div .s-button .s-button2{
+    width: 392px;
+    height: 131px;
+    border-radius: 10px;
+    background-color: rgba(27, 27, 27, 1);
+}
+
+.conteiner .section-div .s-button .s-button1 .button-img1{
+    width: 101px;
+    height: 101px;
+    background: url(./images/objects.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.conteiner .section-div .s-button .s-button1  .button-t1 p{
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 200px;
+    height: 58px;
+    position: relative;
+    bottom: 60px;
+    left: 120px;
+    }
+.conteiner .section-div .s-button .s-button2 .button-img2{
+    width: 101px;
+    height: 101px;
+    background: url(./images/objects\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.conteiner .section-div .s-button .s-button2 .button-t2 p{
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 200px;
+    height: 58px;
+    position: relative;
+    bottom: 60px;
+    left: 120px;
+}
+
+/* Section || Four */
+
+.conteiner .bc-color{
+    width: 100%;
+    height: 700px;
+    background-color: rgba(27, 27, 27, 1);
+}
+.conteiner .bc-color .Text1{
+    width: 380px;
+    height: 51px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 51px;
+    position: relative;
+    top: 120px;
+    left: 170px;
+}
+.conteiner .bc-color .Text2{
+    width: 707px;
+    height: 52px;
+    color: rgba(138, 138, 138, 1);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 140px;
+    left: 170px;
+}
+.conteiner .bc-color .s-button{
+    width: 154px;
+    height: 32px;
+    background: url(./images/BottonAdv.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 110px;
+    left: 1000px;
+}
+.conteiner .bc-color .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 150px;
+    right: 260px;
+}
+.conteiner .bc-color .box .box1{
+    width: 230px;
+    height: 230px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10px
+}
+.conteiner .bc-color .box .box1 p{
+    width: 180px;
+    height: 39px;
+    font-size: 50px;
+    position: relative;
+    top: 90px;
+    left: 20px;
+    color:rgba(138, 138, 138, 1);
+}
+.conteiner .bc-color .box .box2{
+    width: 230px;
+    height: 230px;
+    background-color: rgb(34, 33, 33);
+    border-radius: 10px;
+}
+.conteiner .bc-color .box .box2 p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 15px;
+    top: 50px;
+    color: rgba(249, 249, 249, 1)
+}
+.conteiner .bc-color .box .box2 h5{
+    color: rgba(138, 138, 138, 1);
+    width: 190px;
+    height: 70px;
+    font-weight: 20px;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 15px;
+    top: 60px;
+}
+.conteiner .bc-color .boxes{
+    display: flex;
+    position: relative;
+    left: 650px;
+    bottom: 80px;
+}
+.conteiner .bc-color .boxes .box3{
+    width: 230px;
+    height: 230px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+}
+.conteiner .bc-color .boxes .box3 p{
+    width: 180px;
+    height: 39px;
+    font-size: 40px;
+    position: relative;
+    top: 90px;
+    left: 20px;
+    color:rgba(138, 138, 138, 1);
+
+}
+.conteiner .bc-color .boxes .box4{
+    width: 230px;
+    height: 230px;
+    background-color: rgb(34, 33, 33);
+    border-radius: 10px;
+}
+.conteiner .bc-color .boxes .box4 p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 15px;
+    top: 50px;
+    color: rgba(249, 249, 249, 1)
+}
+.conteiner .bc-color .boxes .box4 h5{
+    color: rgba(138, 138, 138, 1);
+    width: 190px;
+    height: 70px;
+    font-weight: 20px;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 15px;
+    top: 60px;
+}
+.conteiner .bc-color .boxes .bottom{
+    width: 134px;
+    height: 50px;
+    background: url(./images/buttons\ \(1\).png);
+    position: relative;
+    top: 250px;
+    right: 550px;
+    cursor: pointer;
+}
+
+/* Section || Five */
+
+.conteiner .backgrounds {
+    width: 100%;
+    height: 1200px;
+    background: url(./images/backgroud_grey.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.conteiner .backgrounds .section5-t p{
+    width: 330px;
+    height: 51px;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 51px;
+    position: relative;
+    top: 120px;
+    left: 150px;
+}
+.conteiner .backgrounds .section5-t h5{
+    width: 640px;
+    height: 52px;
+    color: rgba(138, 138, 138, 1);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 150px;
+    top: 120px;
+}
+.conteiner .images {
+    width: 1100px;
+    height: 400px;
+    position: relative;
+    top: 150px;
+    left: 150px;
+    display: flex;
+    gap: 15px;
+
+}
+.conteiner .images .images1{
+   width: 220px;
+   height: 450px; 
+   background: url(./images/Component\ 160.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+.conteiner .images .images2{
+    width: 220px;
+    height: 450px;
+    background: url(./images/Component\ 156.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.conteiner .images .images3{
+    width: 220px;
+    height: 450px;
+    background: url(./images/Component\ 157.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.conteiner .images .images4{
+    width: 220px;
+    height: 450px;
+    background: url(./images/Component\ 158.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.conteiner .images .images5{
+    width: 220px;
+    height: 450px;
+    background: url(./images/users.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.conteiner .images .section-but{
+    width: 144px;
+    height: 50px;
+    background: url(./images/buttons.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    right: 660px;
+    top: 290px;
+    cursor: pointer;
+}
+.conteiner .backgrounds .bio{
+    width: 800px;
+    height: 400px;
+    position: relative;
+    top: 200px;
+    left: 150px;
+}
+.conteiner .backgrounds .bio .bios{
+    display: flex;
+}
+.conteiner .backgrounds .bio .bio1{
+    width: 197px;
+    height: 38px;
+    color: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+}
+.conteiner .backgrounds .bio .bio2{
+    width: 107px;
+    height: 26px;
+    color: rgba(92, 92, 92, 1);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 5px;
+    left: 370px;
+}
+.conteiner .backgrounds .bio .bio3{
+    width: 77px;
+    height: 26px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 5px;
+    left: 400px;
+    color: rgba(218, 69, 51, 1)
+}
+.conteiner .backgrounds .bio .picture1{
+    width: 300px;
+    height: 100px;
+    background: url(./images/userForum.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 50px;
+}
+.conteiner .backgrounds .bio .picture1 .pic1{
+   width: 300px;
+   height: 100px;
+   background:url(./images/Frame\ 115.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   position: relative;
+   left: 320px;
+}
+.conteiner .backgrounds .bio .picture1 .p1{
+    width: 150px;
+    height: 150px;
+    background: url(./images/Frame\ 118.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    bottom: 40px;
+    left: 330px;
+}
+.conteiner .backgrounds .bio  hr{
+    position: relative;
+    top: 70px;
+}
+.conteiner .backgrounds .bio .picture2{
+    width: 300px;
+    height: 100px;
+    background: url(./images/userForum\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 120px;
+}
+.conteiner .backgrounds .bio .picture2 .pic2{
+    width: 300px;
+    height: 100px;
+    background: url(./images/Frame\ 115\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    left: 320px;
+}
+.conteiner .backgrounds .bio .picture2 .pic2 .p2{
+    width: 150px;
+    height: 150px;
+    background: url(./images/Frame\ 118\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    bottom: 40px;
+    left: 330px;
+}
+
+/* Section || Six */
+
+ .conteiner .backgraunds{
+    width: 100%;
+    height: 505px;
+    background: url(./images/backgroud_red.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.conteiner .backgraunds .backgraunds-t{
+    width: 400px;
+    height: 102px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 28px;
+    position: relative;
+    left: 150px;
+    top: 120px;
+}
+.conteiner .backgraunds .backgraunds-t1 {
+    width: 460px;
+    height: 52px;
+    color: rgba(255, 255, 255, 1);
+    opacity: 0.7;
+    line-height: 25px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    position: relative;
+    top: 110px;
+    left: 150px ;
+}
+.conteiner .backgraunds .s-bottom{
+    width: 305px;
+    height: 122px;
+    background: url(./images/ButtonB.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 150px;
+    left: 150px;
+}
+.conteiner .backgraunds .foto{
+    width: 413px;
+    height: 384px;
+    background: url(./images/Group\ 248.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    left: 750px;
+    bottom: 220px;
+}
+/* Section || Seven */
+.conteiner .section7{
+    width: 100%;
+    height: 590px;
+    background-color: #000;
+}
+.conteiner .section7 .vector{
+    position: relative;
+    left: 150px;
+    top: 120px;
+}
+.conteiner .section7 .vector .vector1{
+    width: 50px;
+    height: 35px;
+    background: url(./images/Vector.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.conteiner .section7 .vector .vector2{
+    width: 50px;
+    height: 35px;
+    background: url(./images/Vector\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    bottom: 35px;
+    left: 20px;
+}
+.conteiner .section7 .vector .vector3{
+    width: 40px;
+    height: 30px;
+    background: url(./images/Vector\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    bottom: 65px;
+    left: 60px;
+}
+.conteiner .section7 .vector .vector4{
+    width: 30px;
+    height: 25px;
+    background: url(./images/Vector\ \(3\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    left: 85px;
+    bottom: 90px;
+}
+.conteiner .section7 .vector .vector5{
+    width: 30px;
+    height: 30px;
+    background: url(./images/Vector\ \(4\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    left: 112px;
+    bottom: 120px;
+}
+.conteiner .section7 .word {
+    width: 400px;
+    height: 62px;
+    color: rgba(138, 138, 138, 1);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 350px;
+    bottom: 25px;
+}
+.conteiner .section7 .words{
+    width: 260px;
+    height: 46px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    bottom: 100px;
+    left: 900px;
+    opacity: 0.9;
+}
+.conteiner .section7 hr{
+    width: 1100px;
+    position: relative;
+    left: 130px;
+}
+.conteiner .sozlar {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    gap: 190px;
+    color: rgba(92, 92, 92, 1);
+    position: relative;
+    left: 140px;
+}
+.conteiner .soz {
+    display: flex;
+    gap: 150px;
+    position: relative;
+    left: 140px;
+}
+.conteiner .soz .sozlar1{
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 20px;
+}
+.conteiner .soz .sozlar2{
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 150px;
+    top: 20px;
+}
+.conteiner .soz .sozlar3{
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 20px;
+    left: 175px;
+}
+.conteiner .soz .sozlar4{
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 270px;
+    top: 20px;
+}
+.conteiner .section7 .suzlar {
+    display: flex;
+    gap: 90px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif                                                                               ;
+    position: relative;
+    top: 50px;
+    left: 140px;
+    color: #fff
+}
+.conteiner .section7 .suzlar .suz2{
+    position: relative;
+    left: 210px;
+}
+.conteiner .section7 .suzlar .suz3{
+    position: relative;
+    left: 310px;
+}
+.conteiner .section7 .suz{
+    display: flex;
+    position: relative;
+    top: 110px;
+}
+.conteiner .section7 .suz .suzlar1{
+    color: rgba(138, 138, 138, 1);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 150px;
+}
+.conteiner .section7 .suz .suzlar2{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 370px;
+}
+.conteiner .section7 .suz .suzlar3{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 620px;
+}
+@media screen and (max-width:1000px) {
+    .conteiner .backgraund{
+        width: 100%;
+        height: 1700px;
+    }
+    .conteiner .navbar{
+        width: 100%;
+     }
+     .conteiner .navbar ul{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         gap: 10px;
+         position:relative ;
+         top: 20px;
+         right: 50px;
+     }
+     .conteiner .Navbar ul li a {
+        position: relative;
+        right: 300px;
+    }
+    .conteiner .backgraund .text .image1{
+        width: 500px;
+        position: relative;
+        left: 20px;
+    }
+    .conteiner .backgraund .text .image2{
+        position: relative;
+        bottom: 20px;
+        left: 30px;
+    }
+    .conteiner .backgraund .image .image4{
+        width: 600px;
+        height: 500px;
+        position: relative;
+        right: 60px;
+    }
+    .conteiner .backgraund .images .image5{
+        width: 600px;
+        height: 550x;
+        position: relative;
+        right: 100px;
+        bottom: 150px;
+    }
+    .conteiner .backgraund-c .fone .t1 h1{
+        position: relative;
+        left: 120px;
+    }
+    .conteiner .backgraund-c .fone .t1 p{
+        position: relative;
+        left: 120px;
+    }
+    .conteiner .backgraund-c .fone .img {
+        width: 154px;
+        height: 32px;
+        background: url(./images/BottonAdv.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        cursor: pointer;
+        position: relative;
+        left: 850px;
+    }
+    .conteiner .backgraund-c .i .i1{
+        width: 200px;
+        height: 300px;
+        position: relative;
+        bottom: 110px;
+    }
+    .conteiner .backgraund-c .i .i2{
+        width: 200px;
+        height: 300px;
+        position: relative;
+        bottom: 110px;
+    }
+    .conteiner .backgraund-c .i .i3{
+        width: 200px;
+        height: 300px;
+        position: relative;
+        bottom: 110px;
+    }
+    .conteiner .backgraund-c .i .i4{
+        width: 200px;
+        height: 300px;
+        position: relative;
+        bottom: 110px;
+    }
+    .conteiner .backgraund-c .i .i5{
+        width: 200px;
+        height: 300px;
+        position: relative;
+        bottom: 110px;
+    }
+    .conteiner .backgraund-c .button .buttons{
+        position: relative;
+        bottom: 150px;
+    }
+    .conteiner .backgraund-c .fone{
+        width: 100%;
+        height: 850px;
+        background: url(./images/backgroud_grey.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .conteiner  .section-div{
+        width: 900px;
+        height: 460px;
+        border-radius: 10px;
+        background-color: rgba(27, 27, 27, 1);
+        position: relative;
+        bottom: 870px;
+        left: 50px; 
+    }
+    
+.conteiner .bc-color{
+    width: 100%;
+    height: 700px;
+    background-color: rgba(27, 27, 27, 1);
+}
+.conteiner .bc-color .box .box1{
+    width: 200px;
+    height: 220px;
+}
+.conteiner .bc-color .box .box1 p{
+    position: relative;
+    top: 90px;
+    left: 13px;
+}
+.conteiner .bc-color .box .box2{
+    width: 220px;
+    height: 220px;
+}
+.conteiner .bc-color .box .box2 p{
+    position: relative;
+    left: 10px;
+    top: 50px;
+}
+.conteiner .bc-color .box .box2 h5{
+    position: relative;
+    left: 10px;
+    top: 60px;
+}
+.conteiner .bc-color .boxes .box3{
+    width: 220px;
+    height: 220px;
+    position: relative;
+    right: 150px;
+    top: 10px;
+}
+.conteiner .bc-color .boxes .box3 p{
+    position: relative;
+    top: 90px;
+    left: 15px;
+}
+.conteiner .bc-color .boxes .box4{
+    width: 220px;
+    height: 220px;
+    position: relative;
+    top: 10px;
+    right: 150px;
+}
+.conteiner .bc-color .boxes .box4 p{
+    position: relative;
+    left: 5px;
+}
+.conteiner .bc-color .boxes .box4 h5{
+    position: relative;
+    left: 5px;
+    top: 60px;
+}
+.conteiner .bc-color .boxes .bottom{
+    width: 134px;
+    height: 50px;
+    background: url(./images/buttons\ \(1\).png);
+    position: relative;
+    top: 250px;
+    right: 680px;
+}
+
+.conteiner .backgrounds {
+    width: 100%;
+    height: 1200px;
+    background: url(./images/backgroud_grey.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.conteiner .backgrounds .section5-t p{
+    position: relative;
+    top: 120px;
+    left: 50px;
+}
+.conteiner .backgrounds .section5-t h5{
+    position: relative;
+    left: 50px;
+    top: 120px;
+}
+.conteiner .images .images1{
+    width: 200px;
+    height: 350px;
+   position: relative;
+   right: 120px;
+}
+.conteiner .images .images2{
+    width: 200px;
+    height: 350px;
+    position: relative;
+    right: 120px;
+}
+.conteiner .images .images3{
+    width: 200px;
+    height: 350px;
+   position: relative;
+   right: 120px;
+}
+.conteiner .images .images4{
+    width: 200px;
+    height: 350px;
+   position: relative;
+   right: 120px;
+}
+.conteiner .images .images5{
+    width: 200px;
+    height: 350px;
+    position: relative;
+    right: 120px;
+}
+.conteiner .images .section-but{
+    position: relative;
+    right: 70px;
+}
+
+.conteiner .backgrounds .bio .bio1{
+    position: relative;
+    right: 90px;
+}
+.conteiner .backgrounds .bio .picture1{
+    position: relative;
+    top: 50px;
+    right: 90px;
+}
+.conteiner .backgrounds .bio .picture2{
+    position: relative;
+    top: 120px;
+    right: 90px;
+}
+.conteiner .backgraunds .backgraunds-t{
+    position: relative;
+    left: 50px;
+    top: 120px;
+}
+.conteiner .backgraunds .backgraunds-t1 {
+    position: relative;
+    left: 50px ;
+}
+.conteiner .backgraunds .s-bottom{
+    position: relative;
+    top: 150px;
+    left: 50px;
+}
+.conteiner .backgraunds .foto{
+    position: relative;
+    left: 600px;
+    bottom: 220px;
+} 
+.conteiner .section7 .word p {
+    position: relative;
+    right: 40px;
+}
+.conteiner .section7 .words p{
+   position: relative;
+   right: 170px;
+}
+.conteiner .section7 hr{
+    width: 950px;
+    position: relative;
+    bottom: 20px;
+    left: 30px;
+}
+.conteiner .sozlar .soz1{
+    position: relative;
+    right: 50px;
+}
+.conteiner .sozlar .soz2{
+    position: relative;
+    right: 80px;
+}
+.conteiner .sozlar .soz3{
+    position: relative;
+    right: 120px;
+}
+.conteiner .sozlar .soz4{
+    position: relative;
+    right: 180px;
+}
+
+.conteiner .soz .sozlar1{
+    position: relative;
+    right: 50px;
+}
+.conteiner .soz .sozlar2{
+    position: relative;
+    left: 30px;
+}
+.conteiner .soz .sozlar3{
+    position: relative;
+    left: -25px;
+    /* right: -10px; */
+}
+.conteiner .soz .sozlar4{
+    position: relative;
+    left: -20px;
+}
+.conteiner .section7 .suzlar  .suz1 {
+    position: relative;
+    right: 50px;
+}
+.conteiner .section7 .suzlar .suz2{
+    position: relative;
+    left: 90px;
+}
+.conteiner .section7 .suzlar .suz3{
+    position: relative;
+    left: 110px;
+}
+.conteiner .section7 .suz .suzlar1{
+    position: relative;
+    left:  60px;
+    bottom: 15px;
+}
+.conteiner .section7 .suz .suzlar2{
+    position: relative;
+    left: 180px;
+    bottom: 15px;
+}
+.conteiner .section7 .suz .suzlar3{
+    position: relative;
+    left: 250px;
+    bottom: 15px;
+}
+}
