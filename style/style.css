@@ -8,7 +8,7 @@
 }
 .conteiner{
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 .conteiner .navbar{
    width: 100%;
@@ -24,8 +24,8 @@
     top: 20px;
 }
 .conteiner .navbar ul li a{
-    width: 395px;
-    height: 26px;
+    /* width: 395px;
+    height: 26px; */
     color: #fff;
     font-family: sans-serif;
 }
@@ -39,18 +39,17 @@ letter-spacing: 0em;
 text-align: left;
 
 }
-.conteiner .Navbar ul{
+.conteiner .navbar .Navbar ul{
     width: 207px;
     height: 26px;
     display: flex;
-    /* border: 1px slid #000; */
     justify-content: space-between;
     gap: 50px;
-    position: absolute;
-    left: 1000px;
-    top: 20px;
+    position: relative;
+    left: 70%;
+    top: -5px;
 }
-.conteiner .Navbar ul li a{
+.conteiner .navbar .Navbar ul li a{
     color: #fff;
     font-family: sans-serif;
 }
@@ -61,63 +60,311 @@ text-align: left;
 }
 
 .conteiner .backgraund .text{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: relative;
+    left: 150px;
+    top: 70px;
 }
-.conteiner .backgraund .text .image1{
-    width: 650px;
-    height: 350px;
-    background: url(./images/H0.png);
-    background-repeat: no-repeat;
-    background-size: contain;
+.conteiner .backgraund .text .T1{
+    color: #fff;
+    font-weight: 500;
+    font-size: 50px;
     position: relative;
     top: 50px;
 }
-.conteiner .backgraund .text .image2{
-    width: 500px;
-    height: 480px;
-    background: url(./images/image_0.png);
+.conteiner .backgraund .text .T2{
+    color: #fff;
+    font-weight: 400;
+    font-size: 50px;
+    font-style: italic;
+}
+.conteiner .backgraund .text .T3{
+    color: rgba(138, 138, 138, 1);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.conteiner .backgraund .text .buttonB{
+    width: 200px;
+    height: 120px;
+    background: url(./images/ButtonB.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+.conteiner .backgraund .text .Buttons{
+    width: 100px;
+    height: 30px;
+    background: url(./images/BottonD\ \(2\).png);
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
-    top: 90px;
+    left: 250px;
+    bottom: 90px;
+    cursor: pointer;
 }
-.conteiner .backgraund .image{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 70px;
+.conteiner .backgraund  .image .image2{
+    width: 400px;
+    height: 400px; 
+    background: url(./images/image_0.png); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    left: 720px;
+    bottom: 320px;
 }
 .conteiner .backgraund .image .image3{
-    width: 396px;
-    height: 396px;
-    background: url(./images/image_2.png);
+    width: 500px;
+    height: 400px; 
+    background: url(./images/image_2.png); 
     background-repeat: no-repeat;
     background-size: contain;
+    position: relative;
+    left: 100px;
+    bottom: 290px;
 }
-.conteiner .backgraund .image .image4{
-    width: 750px;
-    height: 600px;
-    background: url(./images/exp.png );
-    background-repeat: no-repeat;
-    background-size: contain;
+.conteiner .backgraund .T{
+    position: relative;
+    left: 620px;
+    bottom: 600px;
+}
+.conteiner .backgraund .T .T5{
+    font-weight: 400px;
+    font-size: 38px;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+}
+.conteiner .backgraund .T .T6{
+    color: rgba(138, 138, 138, 1);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.conteiner .backgraund .item{
+    width: 290px;
+    height: 150px;
+    position: relative;
+    left: 620px;
+    bottom: 550px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+}
+.conteiner .backgraund .item .item1 p{
+    color: #fff;
+    font-size: 36px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+.conteiner .backgraund .item .item1 h5{
+    color: rgba(138, 138, 138, 1);
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+.conteiner .backgraund .item .item2{
+    width: 290px;
+    height: 150px;
+    position: relative;
+    top: 70px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+}
+.conteiner .backgraund .item .item2 p{
+    color: #fff;
+    font-size: 36px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+.conteiner .backgraund .item .item2 h5{
+    color: rgba(138, 138, 138, 1);
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+.conteiner .backgraund .item .item3{
+    width: 290px;
+    height: 150px;
+    position: relative;
+    top: 80px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+}
+.conteiner .backgraund .item .item3 p{
+    color: #fff;
+    font-size: 36px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+.conteiner .backgraund .item .item3 h5{
+    color: rgba(138, 138, 138, 1);
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+.conteiner .backgraund .items{
+    width: 290px;
+    height: 150px;
+    position: relative;
+    right: -950px;
+    bottom: 700px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+}
+.conteiner .backgraund .items .item4 p{
+    color: #fff;
+    font-size: 36px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+.conteiner .backgraund .items .item4 h5{
+    color: rgba(138, 138, 138, 1);
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+.conteiner .backgraund .items .item5{
+    width: 290px;
+    height: 150px;
+    position: relative;
+    top: 90px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+}
+.conteiner .backgraund .items .item5 p{
+    color: #fff;
+    font-size: 36px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+.conteiner .backgraund .items .item5 h5{
+    color: rgba(138, 138, 138, 1);
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+.conteiner .backgraund .items .item6{
+    width: 290px;
+    height: 150px;
     position: relative;
     top: 120px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
 }
-.conteiner .backgraund .images{
-    width: 804px;
-    height: 566px;
+.conteiner .backgraund .items .item6 p{
+    color: #fff;
+    font-size: 36px;
     position: relative;
-    top: 300px;
-    left: 480px;
+    left: 20px;
+    top: 20px;
 }
-.conteiner .backgraund .images .image5{
-    width: 8750px;
-    height: 550x;
-    background: url(./images/logos.png);
+.conteiner .backgraund .items .item6 h5{
+    color: rgba(138, 138, 138, 1);
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+.conteiner .backgraund .it{
+    position: relative;
+    left: 620px;
+    bottom: 300px;
+}
+.conteiner .backgraund .it .it1{
+    color: #fff;
+    font-size: 36px;
+}
+.conteiner .backgraund .it .it2{
+    color: rgba(138, 138, 138, 1);
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.conteiner .backgraund .it-rasm{
+    width: 600px;
+    height: 450px;
+    position: relative;
+    left: 620px;
+    bottom: 250px;
+}
+.conteiner .backgraund .it-rasm .it-rasm1{
+    width: 290px;
+    height: 190px;
+    background: url(./images/Component\ 184.png);
     background-repeat: no-repeat;
     background-size: contain;
+}
+.conteiner .backgraund .it-rasm .it-rasm2{
+    width: 290px;
+    height: 190px;
+    background: url(./images/Component\ 184\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    bottom: 70px;
+}
+.conteiner .backgraund .it-rasm .it-rasm3{
+    width: 290px;
+    height: 190px;
+    background: url(./images/Component\ 184\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    bottom: 120px;
+}
+.conteiner .backgraund .it_rasm{
+    width: 600px;
+    height: 300px;
+    position: relative;
+    left: 620px;
+    bottom: 250px;
+}
+.conteiner .backgraund .it_rasm .it_rasm4{
+    width: 290px;
+    height: 190px;
+    background: url(./images/Component\ 184\ \(3\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    left: 340px;
+    bottom: 450px;
+}
+.conteiner .backgraund .it_rasm .it_rasm5{
+    width: 290px;
+    height: 190px;
+    background: url(./images/Component\ 184\ \(4\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    left: 340px;
+    bottom: 520px;
+}
+.conteiner .backgraund .it_rasm .it_rasm6{
+    width: 290px;
+    height: 190px;
+    background: url(./images/Component\ 184\ \(5\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    left: 340px;
+    bottom: 570px;
 }
 
 /* Section || Two */
@@ -529,6 +776,8 @@ right: 50px;
     width: 100%;
     height: 700px;
     background-color: rgba(27, 27, 27, 1);
+    position: relative;
+    bottom: 460px;
 }
 .conteiner .bc-color .Text1{
     width: 380px;
@@ -539,7 +788,7 @@ right: 50px;
     line-height: 51px;
     position: relative;
     top: 120px;
-    left: 170px;
+    left: 100px;
 }
 .conteiner .bc-color .Text2{
     width: 707px;
@@ -551,7 +800,7 @@ right: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
     top: 140px;
-    left: 170px;
+    left: 100px;
 }
 .conteiner .bc-color .s-button{
     width: 154px;
@@ -561,7 +810,7 @@ right: 50px;
     background-size: contain;
     position: relative;
     top: 110px;
-    left: 1000px;
+    left: 950px;
 }
 .conteiner .bc-color .box{
     display: flex;
@@ -569,7 +818,6 @@ right: 50px;
     align-items: center;
     position: relative;
     top: 150px;
-    right: 260px;
 }
 .conteiner .bc-color .box .box1{
     width: 230px;
@@ -614,35 +862,35 @@ right: 50px;
     left: 15px;
     top: 60px;
 }
-.conteiner .bc-color .boxes{
+.conteiner .bc-color .box .boxes{
     display: flex;
     position: relative;
-    left: 650px;
-    bottom: 80px;
+    position: relative;
+    left: 30px;
 }
-.conteiner .bc-color .boxes .box3{
-    width: 230px;
+.conteiner .bc-color .box .boxes .box3{
+    width: 230px; 
     height: 230px;
     background-color: rgba(255, 255, 255, 0.05);
     border-radius: 10px;
 }
-.conteiner .bc-color .boxes .box3 p{
-    width: 180px;
-    height: 39px;
+.conteiner .bc-color .box .boxes .box3 p{
     font-size: 40px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
     top: 90px;
     left: 20px;
     color:rgba(138, 138, 138, 1);
 
 }
-.conteiner .bc-color .boxes .box4{
+.conteiner .bc-color  .box  .boxes .box4{
     width: 230px;
     height: 230px;
     background-color: rgb(34, 33, 33);
     border-radius: 10px;
 }
-.conteiner .bc-color .boxes .box4 p{
+.conteiner .bc-color .box  .boxes .box4 p{
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
@@ -652,7 +900,7 @@ right: 50px;
     top: 50px;
     color: rgba(249, 249, 249, 1)
 }
-.conteiner .bc-color .boxes .box4 h5{
+.conteiner .bc-color .box .boxes .box4 h5{
     color: rgba(138, 138, 138, 1);
     width: 190px;
     height: 70px;
@@ -664,12 +912,30 @@ right: 50px;
     left: 15px;
     top: 60px;
 }
+.conteiner .bc-color .box  .boxe1{
+    width: 230px;
+    height: 230px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    position: relative;
+    left: 20px;
+}
+.conteiner .bc-color .boxe1 p{
+    color: rgba(138, 138, 138, 1);
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 95px;
+}
 .conteiner .bc-color .boxes .bottom{
     width: 134px;
     height: 50px;
     background: url(./images/buttons\ \(1\).png);
     position: relative;
-    top: 250px;
+    top: 300px;
     right: 550px;
     cursor: pointer;
 }
@@ -682,6 +948,8 @@ right: 50px;
     background: url(./images/backgroud_grey.png);
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    bottom: 470px;
 }
 .conteiner .backgrounds .section5-t p{
     width: 330px;
@@ -706,7 +974,7 @@ right: 50px;
     top: 120px;
 }
 .conteiner .images {
-    width: 1100px;
+    width: 95% ;
     height: 400px;
     position: relative;
     top: 150px;
@@ -758,7 +1026,7 @@ right: 50px;
     background-size: contain;
     position: relative;
     right: 660px;
-    top: 290px;
+    top: 340px;
     cursor: pointer;
 }
 .conteiner .backgrounds .bio{
@@ -807,64 +1075,77 @@ right: 50px;
 .conteiner .backgrounds .bio .picture1{
     width: 300px;
     height: 100px;
-    background: url(./images/userForum.png);
+    background: url(./images/Ellipse\ 7.png);
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
     top: 50px;
 }
-.conteiner .backgrounds .bio .picture1 .pic1{
-   width: 300px;
-   height: 100px;
-   background:url(./images/Frame\ 115.png);
-   background-repeat: no-repeat;
-   background-size: contain;
-   position: relative;
-   left: 320px;
-}
-.conteiner .backgrounds .bio .picture1 .p1{
-    width: 150px;
-    height: 150px;
-    background: url(./images/Frame\ 118.png);
-    background-repeat: no-repeat;
-    background-size: contain;
+.conteiner .backgrounds .bio .picture1 .pic1 p{
+    color: rgba(27, 27, 27, 1);
+    font-size: 20px;
     position: relative;
-    bottom: 40px;
-    left: 330px;
-}
-.conteiner .backgrounds .bio  hr{
+    left: 320px;
+ }
+ .conteiner .backgrounds .bio .picture1 .pic1 h5{
+    color: rgba(92, 92, 92, 1); 
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
-    top: 70px;
-}
+    top: 10px;
+    left: 320px;
+ }
+ .conteiner .backgrounds .bio .picture1 .p1 {
+    position: relative;
+    left: 400px;
+    bottom: 60px;
+ }
+ .conteiner .backgrounds .bio .picture1 .p1 h5 {
+    position: relative;
+    left: 350px;
+    bottom: 80px;
+ }
+
 .conteiner .backgrounds .bio .picture2{
     width: 300px;
     height: 100px;
-    background: url(./images/userForum\ \(1\).png);
+    background: url(./images/Ellipse\ 7\ \(1\).png);
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
     top: 120px;
 }
-.conteiner .backgrounds .bio .picture2 .pic2{
-    width: 300px;
-    height: 100px;
-    background: url(./images/Frame\ 115\ \(1\).png);
-    background-repeat: no-repeat;
-    background-size: contain;
+.conteiner .backgrounds .bio .picture2 .pic2 p{
+    color: rgba(27, 27, 27, 1);
+    font-size: 20px;
     position: relative;
     left: 320px;
-}
-.conteiner .backgrounds .bio .picture2 .pic2 .p2{
-    width: 150px;
-    height: 150px;
-    background: url(./images/Frame\ 118\ \(1\).png);
-    background-repeat: no-repeat;
-    background-size: contain;
+ }
+ .conteiner .backgrounds .bio .picture2 .pic2 h5{
+    color: rgba(92, 92, 92, 1); 
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
-    bottom: 40px;
-    left: 330px;
+    top: 10px;
+    left: 320px;
+ }
+ .conteiner .backgrounds .bio .picture2 .p2 {
+    position: relative;
+    left: 400px;
+    bottom: 80px;
+ }
+ .conteiner .backgrounds .bio .picture2 .p2 h5 {
+    position: relative;
+    left: 390px;
+    bottom: 80px;
+ }
+.conteiner .backgraunds .bio hr {
+    width: 90px;
+    position: relative;
+    top: 120px;
 }
-
 /* Section || Six */
 
  .conteiner .backgraunds{
@@ -873,6 +1154,8 @@ right: 50px;
     background: url(./images/backgroud_red.png);
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    bottom: 470px;
 }
 .conteiner .backgraunds .backgraunds-t{
     width: 400px;
@@ -922,6 +1205,8 @@ right: 50px;
     width: 100%;
     height: 590px;
     background-color: #000;
+    position: relative;
+    bottom: 470px;
 }
 .conteiner .section7 .vector{
     position: relative;
